@@ -23,7 +23,7 @@ do
   do
     echo "\033[${att};${fg}m<${att} NA ${fg}> \033[0m\c"
   done
-    echo " "
+  echo " "
 done
 
 echo "\nTesting 256 colors"
