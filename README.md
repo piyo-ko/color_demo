@@ -94,5 +94,16 @@ print STDOUT encode('utf-8', "$target_line\n");
 
 * Perlでは `\033` の代わりに `\e` を使います。
 
+### Example 4 (for creating pixel art images)
+With an appropriately prepared text file such as `pattern_0.txt` or `pattern_1.txt`, you can create a pixel art image on your screen by doing, for example,
+`./pixel_art_8colors.pl < pattern_0.txt` 
+or
+`./pixel_art_256colors.pl < pattern_1.txt`.
+
+適宜用意しておいた `pattern_0.txt` や `pattern_1.txt` といったテキストファイルを使って、
+`./pixel_art_8colors.pl < pattern_0.txt` 
+や
+`./pixel_art_256colors.pl < pattern_1.txt`
+などと実行すると、ドット絵を画面上に作り出せます。
 
 *End*
